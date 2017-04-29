@@ -42,7 +42,7 @@ class MRWordFrequencyCount(MRJob):
 		break
 	    index+=1;
 		
-        yield (word, P)
+        yield (word, top10)
     		
 
 if __name__ == '__main__':
